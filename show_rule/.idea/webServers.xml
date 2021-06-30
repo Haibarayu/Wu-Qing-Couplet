@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="726acc44-c676-4639-aa75-3ffb84227a4e" name="sakura" url="http://59.64.78.254">
+        <fileTransfer host="59.64.78.254" port="9011" rootFolder="/root/fairseq" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="9011" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e6062b78-4b25-4bdb-9e60-3fbc1988610a" name="senior" url="http://59.64.78.254">
+        <fileTransfer host="59.64.78.254" port="5124" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="5124" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
